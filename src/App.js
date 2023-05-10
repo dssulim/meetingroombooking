@@ -1,15 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
+import Message from "./Message";
+import MyForm from "./form";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        some header
-
-      </header>
-    </div>
-  );
+    const name = 'Sulimova Darya';
+    return (
+        <div className="App">
+            <header className="App-header">
+                <Message userName={name}/>
+            </header>
+            <main>
+                <MyForm/>
+            </main>
+        </div>
+    );
 }
 
 export default App;
