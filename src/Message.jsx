@@ -3,7 +3,10 @@ import './Message.css';
 
 function Message({userName}){
     return (
-      <h5 className="message-hello">Hello! My name is {userName}!</h5>
+        <div className="message-hello">
+            <p>Hi! My name is {userName}!</p>
+            <p>Here you can choose a meeting room</p>
+        </div>
     );
 }
 
