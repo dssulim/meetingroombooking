@@ -71,6 +71,7 @@ function MyForm(){
             <textarea id="comment" value={formComment} onChange={(e)=>setFormComment(e.target.value)}/>
             <div className={'groupRow'}>
                 <button className={'clearButton'} type={'button'} onClick={clearForm}>Очистить</button>
+                {/*<input type="reset" value={'Очистить'} className={'clearButton'}/>*/}
                 <button className={'submitButton'} type={'submit'}>Отправить</button>
             </div>
 
