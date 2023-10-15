@@ -27,11 +27,11 @@ function MyForm(){
     }, [order]);
 
     const clearForm = () => {
-        setFormTower('');
-        setFormFloor('');
-        setFormRoom('');
+        setFormTower('A');
+        setFormFloor('3');
+        setFormRoom('1');
         setFormDate('');
-        setFormTime('');
+        setFormTime('9:00 - 11:00');
         setFormComment('');
     }
 
