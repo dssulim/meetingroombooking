@@ -1,4 +1,5 @@
 тестовое задание для стажировки в вк
+
 ![image](https://github.com/dssulim/meetingroombooking/assets/64093614/97324dee-b2a3-40e2-9154-ac44fb5ae91c)
 
 
