@@ -6,6 +6,7 @@ function Message({userName}){
         <div className="message-hello">
             <p>Hi! My name is {userName}!</p>
             <p>Here you can choose a meeting room</p>
+            <h6>ТЗ смотри в README</h6>
         </div>
     );
 }
